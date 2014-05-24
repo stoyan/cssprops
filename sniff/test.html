@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>sniff css props</title>
+</head>
+<body>
+  <p><input id="ua" style="width: 90%"></p>
+  <p><input id="browser" style="width: 90%"></p>
+  
+  <textarea id="result" style="height: 300px; width: 90%"></textarea>
+  <script src="sniff.js"></script>
+  <script src="ua.js"></script>
+  
+  <script>
+    result.value = out;
+    ua.value = str;
+    browser.value = name;
+  </script>
+  
+</body>
+</html>

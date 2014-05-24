@@ -1,0 +1,16 @@
+{
+  "name": "css-props",
+  "version": "0.1",
+  "description": "CSS properties supported by browsers in the wild",
+  "keywords": [
+    "css",
+    "transform",
+    "browser"
+  ],
+  "author": "Stoyan <ssttoo@ymail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stoyan/css-props.git"
+  },
+  "main": "index"
+}

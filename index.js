@@ -1,0 +1,11 @@
+exports.chrome = require("./browsers/chrome.js").chrome;
+exports.firefox = require("./browsers/firefox.js").firefox;
+exports.ie10 = require("./browsers/ie10.js").ie10;
+exports.ie11 = require("./browsers/ie11.js").ie11;
+exports.ie6 = require("./browsers/ie6.js").ie6;
+exports.ie7 = require("./browsers/ie7.js").ie7;
+exports.ie8 = require("./browsers/ie8.js").ie8;
+exports.ie9 = require("./browsers/ie9.js").ie9;
+exports.ios = require("./browsers/ios.js").ios;
+exports.opera = require("./browsers/opera.js").opera;
+exports.safari = require("./browsers/safari.js").safari;
