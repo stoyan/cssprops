@@ -1,6 +1,6 @@
 {
-  "name": "css-props",
-  "version": "0.1",
+  "name": "cssprops",
+  "version": "0.0.1",
   "description": "CSS properties supported by browsers in the wild",
   "keywords": [
     "css",
@@ -10,7 +10,7 @@
   "author": "Stoyan <ssttoo@ymail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stoyan/css-props.git"
+    "url": "git://github.com/stoyan/cssprops.git"
   },
   "main": "index"
 }
