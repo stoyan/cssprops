@@ -28,28 +28,32 @@ The list of maintained browsers is as follows:
 
 After installation, go:
 
-  var cssprops = require('cssprops');
-  Array.isArray(cssprops.ie6); // true
-  cssprops.ie6.length; // 115
-  cssprops.firefox.indexOf('zoom'); // -1, no `zoom` in FF
+```js
+var cssprops = require('cssprops');
+Array.isArray(cssprops.ie6); // true
+cssprops.ie6.length; // 115
+cssprops.firefox.indexOf('zoom'); // -1, no `zoom` in FF
+```
 
 What's available:
 
-  Object.keys(cssprops);
+```js
+Object.keys(cssprops);
+```
 
 Result:
 
-  [ 'chrome',
-    'firefox',
-    'ie10',
-    'ie11',
-    'ie6',
-    'ie7',
-    'ie8',
-    'ie9',
-    'ios',
-    'opera',
-    'safari' ]
+    [ 'chrome',
+      'firefox',
+      'ie10',
+      'ie11',
+      'ie6',
+      'ie7',
+      'ie8',
+      'ie9',
+      'ios',
+      'opera',
+      'safari' ]
 
 ## Contribute
 
