@@ -24,6 +24,33 @@ The list of maintained browsers is as follows:
  - iOS Safari - latest
  - Opera - latest
 
+## Usage
+
+After installation, go:
+
+  var cssprops = require('cssprops');
+  Array.isArray(cssprops.ie6); // true
+  cssprops.ie6.length; // 115
+  cssprops.firefox.indexOf('zoom'); // -1, no `zoom` in FF
+
+What's available:
+
+  Object.keys(cssprops);
+
+Result:
+
+  [ 'chrome',
+    'firefox',
+    'ie10',
+    'ie11',
+    'ie6',
+    'ie7',
+    'ie8',
+    'ie9',
+    'ios',
+    'opera',
+    'safari' ]
+
 ## Contribute
 
  - Run http://www.phpied.com/files/css-props/test.html in your browser (source is here on github)
