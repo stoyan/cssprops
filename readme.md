@@ -18,11 +18,16 @@ The list of maintained browsers is as follows:
  - IE9
  - IE10
  - IE11
- - Chrome (latest Canary)
- - Firefox (nightly)
- - Safari - latest available
+ - IE (same as IE11)
+ - Chrome (37.0.2019.0 canary)
+ - Firefox (32.0a1 (2014-05-28))
+ - Safari (Version 7.0.4 (9537.76.4))
  - iOS Safari - latest
  - Opera - latest
+ - Forward - merge of all non-versioned browsers
+
+The idea of "forward" is that any feature supported in any modern browser has a shot of being supported by others eventually.
+This is an acceptable approximation - let's your transpiler output "future-proof" CSS.
 
 ## Usage
 
@@ -47,13 +52,15 @@ Result:
       'firefox',
       'ie10',
       'ie11',
+      'ie',
       'ie6',
       'ie7',
       'ie8',
       'ie9',
       'ios',
       'opera',
-      'safari' ]
+      'safari',
+      'forward' ]
 
 ## Contribute
 

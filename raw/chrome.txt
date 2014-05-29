@@ -262,6 +262,9 @@ resize
 right
 rtl-ordering
 ruby-position
+shape-image-threshold
+shape-margin
+shape-outside
 shape-rendering
 size
 speak
