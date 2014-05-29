@@ -528,6 +528,7 @@ module.exports = [
   "order",
   "orient",
   "orphans",
+  "osx-font-smoothing",
   "outline",
   "outline-color",
   "outline-offset",
