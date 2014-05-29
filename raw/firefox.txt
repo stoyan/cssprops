@@ -171,11 +171,11 @@ max-width
 min-height
 min-width
 mix-blend-mode
-o-s-x-font-smoothing
 opacity
 order
 orient
 orphans
+osx-font-smoothing
 outline
 outline-color
 outline-offset

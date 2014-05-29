@@ -1,4 +1,4 @@
-var opera = [
+module.exports = [
   "accesskey",
   "align-content",
   "align-items",
@@ -245,5 +245,3 @@ var opera = [
   "z-index",
   "zoom"
 ];
-
-exports.opera = opera;

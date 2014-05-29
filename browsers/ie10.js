@@ -1,4 +1,4 @@
-var ie10 = [
+module.exports = [
   "accelerator",
   "alignment-baseline",
   "animation",
@@ -271,5 +271,3 @@ var ie10 = [
   "z-index",
   "zoom"
 ];
-
-exports.ie10 = ie10;

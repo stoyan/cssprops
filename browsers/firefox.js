@@ -1,4 +1,4 @@
-var firefox = [
+module.exports = [
   "align-content",
   "align-items",
   "align-self",
@@ -172,11 +172,11 @@ var firefox = [
   "min-height",
   "min-width",
   "mix-blend-mode",
-  "o-s-x-font-smoothing",
   "opacity",
   "order",
   "orient",
   "orphans",
+  "osx-font-smoothing",
   "outline",
   "outline-color",
   "outline-offset",
@@ -263,5 +263,3 @@ var firefox = [
   "word-wrap",
   "z-index"
 ];
-
-exports.firefox = firefox;

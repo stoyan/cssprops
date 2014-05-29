@@ -1,4 +1,4 @@
-var ios = [
+module.exports = [
   "alignment-baseline",
   "animation",
   "animation-delay",
@@ -350,5 +350,3 @@ var ios = [
   "z-index",
   "zoom"
 ];
-
-exports.ios = ios;

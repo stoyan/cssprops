@@ -1,4 +1,4 @@
-var ie6 = [
+module.exports = [
   "accelerator",
   "background",
   "background-attachment",
@@ -115,5 +115,3 @@ var ie6 = [
   "writing-mode",
   "zoom"
 ];
-
-exports.ie6 = ie6;

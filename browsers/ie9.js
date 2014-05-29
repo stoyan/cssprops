@@ -1,4 +1,4 @@
-var ie9 = [
+module.exports = [
   "accelerator",
   "alignment-baseline",
   "background",
@@ -178,5 +178,3 @@ var ie9 = [
   "z-index",
   "zoom"
 ];
-
-exports.ie9 = ie9;

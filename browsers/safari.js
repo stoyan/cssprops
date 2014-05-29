@@ -1,4 +1,4 @@
-var safari = [
+module.exports = [
   "align-content",
   "align-items",
   "align-self",
@@ -375,5 +375,3 @@ var safari = [
   "z-index",
   "zoom"
 ];
-
-exports.safari = safari;

@@ -1,4 +1,4 @@
-var ie8 = [
+module.exports = [
   "accelerator",
   "background",
   "background-attachment",
@@ -136,5 +136,3 @@ var ie8 = [
   "z-index",
   "zoom"
 ];
-
-exports.ie8 = ie8;
