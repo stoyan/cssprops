@@ -8,16 +8,34 @@
 <body>
   <p><input id="ua" style="width: 90%"></p>
   <p><input id="browser" style="width: 90%"></p>
-  
+  <pre id="diffr"></pre>
   <textarea id="result" style="height: 300px; width: 90%"></textarea>
+
   <script src="sniff.js"></script>
   <script src="ua.js"></script>
-  
+  <script src="bundle.js"></script>
+
   <script>
     result.value = out;
     ua.value = str;
     browser.value = name;
+
+    var diff = [];
+
+    for (var prop in props) {
+      if (cssprops[name].indexOf(props[prop]) === -1) {
+        diff.push(props[prop]);
+      }
+    }
+
+    if (diff.length) {
+      var msg = 'zOMG! New properties found! Here:\n\n<h3>';
+      msg += diff.join('<br>');
+      msg += "</h3>\n\nCopy all the stuff in the text box and send a pull request nao!";
+      diffr.innerHTML = msg;
+    }
+
   </script>
-  
+
 </body>
 </html>
