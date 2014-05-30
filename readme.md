@@ -19,8 +19,8 @@ The list of maintained browsers is as follows:
  - IE10
  - IE11
  - IE (same as IE11)
- - Chrome (37.0.2019.0 canary)
- - Firefox (32.0a1 (2014-05-28))
+ - Chrome (35.0.1916.114)
+ - Firefox (32.0a1)
  - Safari (Version 7.0.4 (9537.76.4))
  - iOS Safari - latest
  - Opera - latest

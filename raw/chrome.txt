@@ -105,6 +105,7 @@ clip-rule
 color
 color-interpolation
 color-interpolation-filters
+color-profile
 color-rendering
 column-break-after
 column-break-before
@@ -160,6 +161,7 @@ highlight
 hyphenate-character
 image-rendering
 justify-content
+kerning
 left
 letter-spacing
 lighting-color
@@ -262,9 +264,6 @@ resize
 right
 rtl-ordering
 ruby-position
-shape-image-threshold
-shape-margin
-shape-outside
 shape-rendering
 size
 speak
@@ -339,7 +338,6 @@ visibility
 white-space
 widows
 width
-will-change
 word-break
 word-spacing
 word-wrap
