@@ -4,11 +4,17 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>sniff css props</title>
+  <style>
+  body, textarea, input {
+    font: 16px Consolas, Monaco, 'Andale Mono', monospace;
+  }
+  </style>
 </head>
 <body>
-  <p><input id="ua" style="width: 90%"></p>
-  <p><input id="browser" style="width: 90%"></p>
+  <p>Your user-agent string:</p><p><input id="ua" style="width: 90%"></p>
+  <p>Your sniffed browser id:</p><p><input id="browser" style="width: 90%"></p>
   <pre id="diffr"></pre>
+  <p>Supported properties:</p>
   <textarea id="result" style="height: 300px; width: 90%"></textarea>
 
   <script src="sniff.js"></script>
@@ -31,11 +37,16 @@
     if (diff.length) {
       var msg = 'zOMG! New properties found! Here:\n\n<h3>';
       msg += diff.join('<br>');
-      msg += "</h3>\n\nCopy all the stuff in the text box and send a pull request nao!";
+      msg += "</h3>\n\nCopy all the stuff from the text box and send a pull request nao!";
       diffr.innerHTML = msg;
     }
 
   </script>
+
+  <p><a href="http://github.com/stoyan/cssprops">Pull requests</a> welcome here.</p>
+  
+  <p>This tool lists all the CSS properties that your browser supports. It's used to feed this data
+    to the BSCSS (Browser-specific CSS) project. <a href="http://github.com/stoyan/cssprops">More details...</a></p>
 
 </body>
 </html>
