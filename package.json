@@ -1,6 +1,6 @@
 {
   "name": "cssprops",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "CSS properties supported by browsers in the wild",
   "keywords": [
     "css",
