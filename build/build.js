@@ -35,7 +35,6 @@ fs.readdir(dir, function (err, files) {
 
   });
 
-
   writeBrowser('forward', forward.reduce(function(unique, prop) {
     if (unique.indexOf(prop) < 0) {
       unique.push(prop);
@@ -47,7 +46,6 @@ fs.readdir(dir, function (err, files) {
 
   // write index
   write(process.cwd() + '/index.js', index);
-
 });
 
 function writeBrowser(name, props) {
