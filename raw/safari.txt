@@ -2,6 +2,7 @@ align-content
 align-items
 align-self
 alignment-baseline
+alt
 animation
 animation-delay
 animation-direction
@@ -16,6 +17,7 @@ aspect-ratio
 backface-visibility
 background
 background-attachment
+background-blend-mode
 background-clip
 background-color
 background-composite
@@ -111,6 +113,7 @@ column-break-after
 column-break-before
 column-break-inside
 column-count
+column-fill
 column-gap
 column-progression
 column-rule
@@ -161,26 +164,16 @@ font-variant-ligatures
 font-weight
 glyph-orientation-horizontal
 glyph-orientation-vertical
-grid-after
-grid-auto-columns
-grid-auto-flow
-grid-auto-rows
-grid-before
-grid-column
-grid-columns
-grid-end
-grid-row
-grid-rows
-grid-start
 height
-highlight
 hyphenate-character
 hyphenate-limit-after
 hyphenate-limit-before
 hyphenate-limit-lines
 hyphens
 image-rendering
+isolation
 justify-content
+justify-self
 kerning
 left
 letter-spacing
@@ -241,6 +234,7 @@ mask-repeat
 mask-repeat-x
 mask-repeat-y
 mask-size
+mask-source-type
 mask-type
 max-height
 max-logical-height
@@ -250,7 +244,9 @@ min-height
 min-logical-height
 min-logical-width
 min-width
+mix-blend-mode
 nbsp-mode
+object-fit
 opacity
 order
 orphans
@@ -276,6 +272,7 @@ page
 page-break-after
 page-break-before
 page-break-inside
+paint-order
 perspective
 perspective-origin
 perspective-origin-x
@@ -292,6 +289,9 @@ resize
 right
 rtl-ordering
 ruby-position
+shape-image-threshold
+shape-margin
+shape-outside
 shape-rendering
 size
 speak
@@ -313,6 +313,10 @@ text-align
 text-anchor
 text-combine
 text-decoration
+text-decoration-color
+text-decoration-line
+text-decoration-skip
+text-decoration-style
 text-decorations-in-effect
 text-emphasis
 text-emphasis-color
@@ -342,6 +346,7 @@ text-transform
 text-underline
 text-underline-color
 text-underline-mode
+text-underline-position
 text-underline-style
 text-underline-width
 top
